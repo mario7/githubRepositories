@@ -51,6 +51,8 @@
 		035E29581F87D952009C02B8 /* documentAppSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = documentAppSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		035E295C1F87D952009C02B8 /* documentAppSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = documentAppSampleUITests.swift; sourceTree = "<group>"; };
 		035E295E1F87D952009C02B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035E296A1F8D1F8B009C02B8 /* ReactiveSwiftSample2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ReactiveSwiftSample2.playground; path = ../../ReactiveSwiftSample2.playground; sourceTree = "<group>"; };
+		035E296B1F8D1F9F009C02B8 /* RxSwiftSample1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = RxSwiftSample1.playground; path = ../../RxSwiftSample1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,8 @@
 		035E29371F87D952009C02B8 /* documentAppSample */ = {
 			isa = PBXGroup;
 			children = (
+				035E296B1F8D1F9F009C02B8 /* RxSwiftSample1.playground */,
+				035E296A1F8D1F8B009C02B8 /* ReactiveSwiftSample2.playground */,
 				035E29381F87D952009C02B8 /* AppDelegate.swift */,
 				035E293A1F87D952009C02B8 /* DocumentBrowserViewController.swift */,
 				035E293C1F87D952009C02B8 /* DocumentViewController.swift */,
