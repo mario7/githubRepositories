@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0354D8CB1F98F6130058CFE8 /* CategoryAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354D8CA1F98F6130058CFE8 /* CategoryAd.swift */; };
 		035E29391F87D952009C02B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E29381F87D952009C02B8 /* AppDelegate.swift */; };
 		035E293B1F87D952009C02B8 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E293A1F87D952009C02B8 /* DocumentBrowserViewController.swift */; };
 		035E293D1F87D952009C02B8 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E293C1F87D952009C02B8 /* DocumentViewController.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0354D8CA1F98F6130058CFE8 /* CategoryAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryAd.swift; sourceTree = "<group>"; };
 		035E29351F87D952009C02B8 /* documentAppSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = documentAppSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035E29381F87D952009C02B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		035E293A1F87D952009C02B8 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
@@ -135,11 +137,12 @@
 				035E293A1F87D952009C02B8 /* DocumentBrowserViewController.swift */,
 				035E293C1F87D952009C02B8 /* DocumentViewController.swift */,
 				035E293E1F87D952009C02B8 /* Document.swift */,
+				035E296C1F8E6252009C02B8 /* Article.swift */,
 				035E29401F87D952009C02B8 /* Main.storyboard */,
 				035E29431F87D952009C02B8 /* Assets.xcassets */,
 				035E29451F87D952009C02B8 /* LaunchScreen.storyboard */,
 				035E29481F87D952009C02B8 /* Info.plist */,
-				035E296C1F8E6252009C02B8 /* Article.swift */,
+				0354D8CA1F98F6130058CFE8 /* CategoryAd.swift */,
 			);
 			path = documentAppSample;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				035E293D1F87D952009C02B8 /* DocumentViewController.swift in Sources */,
 				035E293B1F87D952009C02B8 /* DocumentBrowserViewController.swift in Sources */,
 				035E29391F87D952009C02B8 /* AppDelegate.swift in Sources */,
+				0354D8CB1F98F6130058CFE8 /* CategoryAd.swift in Sources */,
 				035E296D1F8E6252009C02B8 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

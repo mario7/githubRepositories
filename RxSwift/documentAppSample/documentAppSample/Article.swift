@@ -15,27 +15,27 @@ class ArticleViewModel {
     var content = Variable<String>("Contentですよ")
 }
 
-class ArticleViewController: UIViewController {
-    
-    @IBOutlet weak var articleTitleLabel: UILabel!
-    @IBOutlet weak var articleContentLabel: UILabel!
-    
-    let viewModel = ArticleViewModel()
-    let disposeBag = DisposeBag()
-    
-    override func viewDidLoad() {
-        
-        // Title
-        viewModel.title
-            .asObservable()
-            .bindTo(articleTitleLabel.rx_text)
-            .addDisposableTo(disposeBag)
-        
-        // Content
-        viewModel.content
-            .asObservable()
-            .bindTo(articleContentLabel.rx_text)
-            .addDisposableTo(disposeBag)
-    }
-}
+//class ArticleViewController: UIViewController {
+//    
+//    @IBOutlet weak var articleTitleLabel: UILabel!
+//    @IBOutlet weak var articleContentLabel: UILabel!
+//    
+//    let viewModel = ArticleViewModel()
+//    let disposeBag = DisposeBag()
+//    
+//    override func viewDidLoad() {
+//        
+//        // Title
+//        viewModel.title
+//            .asObservable()
+//            .bindTo(articleTitleLabel.rx_text)
+//            .addDisposableTo(disposeBag)
+//        
+//        // Content
+//        viewModel.content
+//            .asObservable()
+//            .bindTo(articleContentLabel.rx_text)
+//            .addDisposableTo(disposeBag)
+//    }
+//}
 
