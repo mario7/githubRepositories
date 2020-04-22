@@ -14,7 +14,7 @@
   - Objective-c ( 去年までメインで開発できるだが、今はどうかな？
 
 - Android
-  - kotorin (開発中？）
+  - kotlin (開発中？）
   - java　（？？）
   
 - python
